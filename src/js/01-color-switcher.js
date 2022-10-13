@@ -7,11 +7,11 @@ let bodyColorChangerId = null;
 
 startBtnRef.setAttribute(
   'style',
-  'border-radius:16px; font-size: 32px; background-color: green;'
+  'border-radius:10%; font-size: 62px; background-color: red;'
 );
 stopBtnRef.setAttribute(
   'style',
-  'border-radius:16px; font-size: 32px; background-color: red;'
+  'border-radius:10%; font-size: 62px; background-color: green;'
 );
 
 startBtnRef.addEventListener('click', onStartBtnClick);
